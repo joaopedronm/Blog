@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="./americanas.png" alt="" height="30">
+            <div>
+                <h1>Blog Polo Tech</h1>
+            </div>
+            <a href="index.html" id="back">Voltar</a>
+        </div>
+    </header>
+    
+    <p id="loading">Carregando...</p>
+    <div id="post" class="hide">
+        
+        <div id="single-post"></div>
+        <h2>Comentários</h2>
+        <form id="comment-form">
+            <div>
+                <label for="email">Seu e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div>
+                <label for="body">Seu comentário:</label>
+                <textarea name="body" id="body" placeholder="Digite seu comentário" required></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" />
+        </form>
+
+        <div id="comments-container">
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>João Pedro - Desenvolvedor Front-End</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vero natus. Perferendis ad quibusdam adipisci!</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 João Pedro - Desenvolvedor Front-End. designed by <span>Jp</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
